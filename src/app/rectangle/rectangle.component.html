@@ -1,0 +1,11 @@
+Beregn rektangel
+<br>
+Højde: <input #height type="number">
+<br>
+Brædde: <input #width type="number">
+<br>
+<button (click)="side_width = width.value;side_height = height.value">Beregn</button>
+<br>
+Areal: {{getArea()}}
+<br>
+Omkreds: {{getPerimeter()}}
