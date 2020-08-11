@@ -12,7 +12,6 @@ import { QuadrilateralComponent } from './quadrilateral/quadrilateral.component'
     AppComponent,
     SquareComponent,
     RectangleComponent,
-    QuadrilateralComponent,
   ],
   imports: [
     BrowserModule,
